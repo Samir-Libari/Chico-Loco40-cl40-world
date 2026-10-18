@@ -1,47 +1,215 @@
 ---
-title: "Quickstart"
+title: "CL40 World Codes - Quickstart Guide:"
 description: "Begin with a guide on the fastest path to a successful outcome"
+icon:
+  name: "asymmetrik"
+  style: "regular"
+  library: "fontawesome"
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
+Get up and running with the **CL40 World Ecosystem** in less than 5 minutes. This guide walks you through the fastest path to integrating your applications with our core infrastructure.
 
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+## 1. Prerequisites
+
+Before starting, ensure you have the following credentials ready:
+
+- A verified **CL40 World Account** (`https://cl40.world`)
+- Access to the **Developer Portal** via GitHub (`chicoloco40`)
+- Active API Keys from **CL40 World Codes**
+
+---
+
+## 2. Fast-Track Authentication
+
+Set up your environment variables to establish a secure connection with our core gateway:
+
+```mdx
+# Clone the core integration module
+git clone [https://github.com/chicoloco40/cl40-world-core.git](https://github.com/chicoloco40/cl40-world-core.git)
+
+# Navigate to the project directory
+cd cl40-world-core
+
+# Export your system credentials
+export CL40_API_KEY="your_api_key_here"
+export CL40_ENV="production"
+```
+
+# Execute health check via CLI / C++ module
+
+```cpp
+# Execute health check via CLI / C++ module
+npm run verify-node
+```
+
+```json
+{
+  "status": "success",
+  "ecosystem": "CL40 World",
+  "node_id": "cl40_live_01",
+  "latency": "12ms",
+  "modules": ["Space", "Codes", "Rights", "Humanity"]
+}
+```
+
+# Quickstart
+
+Get up and running with the **CL40 World Ecosystem** in less than 5 minutes.
+
+---
 
 ## Prerequisites
 
-Before you begin, you must have:
+Before you begin, ensure you have the following ready:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- **Node.js 18+** or **C++20 Toolchain** (for core plugin extensions)
+- A free **CL40 World Account** (`https://cl40.world`)
+- An active API Key from **CL40 World Codes**
+- A compatible OS (Linux, macOS, or Windows 11)
+
+---
+
+Configure
+
+Initialize your environment and link your developer API credentials before first use:
+
+```markdown
+cl40-cli init
+```
+
+Run It
+
+Start your local integration node to see it working and verify ecosystem connectivity:
+
+```markdown
+cl40-cli start
+```
+
+### Expected Output
+
+```json
+{
+  "status": "online",
+  "ecosystem": "CL40 World",
+  "node": "cl40-live-node-01",
+  "services": ["Space", "Codes", "Rights", "Humanity"],
+  "latency": "14ms"
+}
+```
+
+### Need Help?
+
+Reach out to us at [founder.american@cl40.world](mailto:only@cl40.world) or join our developer community on [Discord](https://www.google.com/search?q=https://discord.gg/WUJ6MTZn3).
+
+```markdown
+---
+
+## Need Help?
+
+Reach out to us directly at [founder.american@cl40.world](mailto:founder.american@cl40.world) or join our developer community on [Discord](https://discord.gg/WUJ6MTZn3).
+```
+
+```bash
+npm install @cl40/world-sdk
+```
 
 ## Get started
 
 <Steps>
   <Step title="Install">
-    Describe how to install your product or sign up.
+    Install the official CL40 World SDK via npm or register your app credentials on [cl40.world](http://cl40.world):
 
     ```bash
-    npm install your-package
+    npm install @cl40/world-sdk
     ```
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
+  <Step>
+    Initialize your project environment and link your API key:
 
     ```bash
-    your-cli init
+    cl40-cli init
     ```
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
+  <Step>
+    Launch your ecosystem node to test real-time connectivity:
 
     ```bash
-    your-cli start
+    cl40-cli start
     ```
   </Step>
 </Steps>
 
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
+# Copyright & Intellectual Property Policy
 
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
+All content, software, audio, trademarks, and media within the **CL40 World Ecosystem** are protected under global intellectual property laws.
+
+---
+
+## Intellectual Property Ownership
+
+- **CL40 World Rights:** All music, stems, sound recordings, catalog metadata, and master rights are exclusively owned and administered under **CL40 World Rights** and official publishing entities.
+- **CL40 World Codes:** Software, custom APIs, developer tools, and code repositories are proprietary assets of **CL40 World Codes** unless explicitly licensed under open-source terms.
+- **CL40 World Space:** Game design assets, native C++ plugins, dynamic audio-rendering architecture, and core engine components are fully protected.
+
+---
+
+## DMCA and Libari & Takedown Requests
+
+For copyright inquiries, licensing permissions, or DMCA takedown requests, contact our legal team directly:
+
+- **Legal Contact:** [founder.american@cl40.world](mailto:founder.american@cl40.world)
+- **Official Domain:** [https://cl40.world](https://cl40.world)
+
+# Privacy Policy
+
+**Effective Date:** 2026
+
+**CL40 World** ("we," "our," or "us") is committed to protecting your privacy across all ecosystem portals, including **CL40 World Space**, **CL40 World Codes**, and community platforms.
+
+---
+
+## 1. Information We Collect
+
+- **Account Credentials:** Public Discord ID, X/Twitter OAuth tokens, and unified CL40 developer credentials.
+- **Technical Metrics:** API request logs, node latency data, system performance metrics, and IP addresses for security compliance.
+
+---
+
+## 2. How We Use Information
+
+- To authenticate users and developer applications across our multi-platform infrastructure.
+- To enforce rate limits, maintain ecosystem integrity, and protect against security threats.
+- To manage royalty distribution and catalog metadata via **CL40 World Rights**.
+
+---
+
+## 3. Data Protection & Inquiries
+
+We do not sell, rent, or trade user data to third parties. For data access requests or account deletion, contact:
+
+- **Privacy Desk:** [founder.american@cl40.world](mailto:founder.american@cl40.world)
+- **Portal:** [https://cl40.contact](https://cl40.contact)
+
+# Cookies & Local Storage Policy
+
+The **CL40 World Ecosystem** uses essential cookies and local browser storage to maintain security, session state, and developer portal preferences.
+
+---
+
+## Types of Cookies We Use
+
+1. **Essential Cookies:** Required for user authentication, API token authorization, and system security.
+2. **Performance & Analytics:** Used to monitor latency, traffic distribution, and server health across global nodes (+210 countries).
+3. **Preferences:** Stores theme settings (dark/light mode) and navigation state within the Mintlify documentation platform.
+
+---
+
+## Managing Cookies
+
+You can disable or clear cookies at any time through your browser settings. Note that disabling essential cookies may impact authentication across **CL40 World** portals.
+
+- **Support & Questions:** Reach out to [founder.american@cl40.world](mailto:founder.american@cl40.world).
+
+<Tip>
+  Need help? Reach out to us at [founder.american@cl40.world](mailto:founder.american@cl40.world) or join our developer community on [Discord](https://discord.gg/WUJ6MTZn3).
 </Tip>
