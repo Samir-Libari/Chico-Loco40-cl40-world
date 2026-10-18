@@ -17,6 +17,19 @@
           "quickstart",
           "changelog"
         ]
+      },
+      {
+        "group": "Artists",
+        "pages": [
+          "artists/chico-loco-40"
+        ]
+      },
+      {
+        "group": "Labels",
+        "pages": [
+          "labels/cl40-world",
+          "labels/wr-beats"
+        ]
       }
     ],
     "global": {
