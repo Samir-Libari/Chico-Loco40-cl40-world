@@ -30,6 +30,12 @@
           "labels/cl40-world",
           "labels/wr-beats"
         ]
+      },
+      {
+        "group": "CL40 World Space",
+        "pages": [
+          "keep-the-work-keep-the-proof-keep-your-voice-cl-40-world"
+        ]
       }
     ],
     "global": {
